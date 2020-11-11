@@ -83,7 +83,11 @@ main form {
   height: 44px;
   border-top-left-radius: 20px;
   border-bottom-left-radius: 20px;
-  background-color: lightgrey;
+  background-position-x: 50%;
+  background-position-y: 50%;
+  background-size: 16px;
+  background-color: rgb(95, 99, 104);
+  background-image: url(/img/search.svg);
 }
 
 .search-bar {
@@ -96,5 +100,8 @@ main form {
   height: 44px;
   border-top-right-radius: 20px;
   border-bottom-right-radius: 20px;
-  background-color: lightgrey;
+  background-position-x: 50%;
+  background-position-y: 50%;
+  background-size: 16px;
+  background-color: rgb(95, 99, 104);
 }
