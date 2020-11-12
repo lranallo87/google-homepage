@@ -2,9 +2,11 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 nav {
+  font-size: 0.9em;
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
@@ -45,7 +47,8 @@ nav svg {
 }
 
 main {
-  width: 80%;
+  width: 70%;
+  max-width: 600px;
   margin: auto;
   display: flex;
   flex-direction: column;
@@ -67,13 +70,15 @@ main form {
 }
 
 .search-bar-container {
-  width: 80%;
+  width: 100%;
   margin-top: 50px;
   display: flex;
   justify-content: center;
   align-items: center;
   border-top-left-radius: 20px;
   border-bottom-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
   border: 1px solid black;
 }
 
@@ -86,6 +91,7 @@ main form {
 .search-icon {
   width: 30px;
   height: 44px;
+  padding: 0 30px 0 30px;
   background-position-x: 50%;
   background-position-y: 50%;
   background-color: rgb(95, 99, 104);
@@ -102,14 +108,45 @@ main form {
 .search-bar {
   width: 100%;
   height: 44px;
+  font-size: 15px;
   border: none;
 }
 
 .microphone-icon {
   width: 30px;
   height: 44px;
+  padding-right: 40px;
   background-position-x: 50%;
   background-position-y: 50%;
-  background-size: 16px;
-  background-color: rgb(95, 99, 104);
+  background-size: 20px;
+  background-color: transparent;
+  background-image: url('/img/microphone.svg');
+  background-repeat: no-repeat;
+  border: none;
+  cursor: pointer;
+}
+
+.favorites-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.card {
+  margin: 30px;
+}
+
+.card h6 {
+  margin-top: 20px;
+  font-size: 0.8em;
+  font-weight: 400;
+}
+
+.card-image {
+  width: 40px;
+  height: 40px;
+  background-color: turquoise;
+  border-radius: 50%;
+  box-shadow: 5px 5px 5px grey;
 }
