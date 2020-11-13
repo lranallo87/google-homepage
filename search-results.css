@@ -1,0 +1,58 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main-container {
+  width: 95%;
+  margin: auto;
+}
+
+header {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  width: 92px;
+  height: 30px;
+  margin-right: 30px;
+  background-image: url('/img/googlelogo_color_92x30dp.png');
+  background-size: cover;
+}
+
+.search-bar {
+  display: flex;
+  width: 50%;
+  border: 1px solid lightgray;
+  border-radius: 20px;
+}
+
+.search-bar input {
+  width: 90%;
+  height: 40px;
+  border: none;
+  border-radius: 20px;
+}
+
+.categories {
+  width: 80%;
+  margin: auto;
+  margin-top: 20px;
+}
+.categories ul {
+  display: flex;
+}
+
+.categories li {
+  list-style: none;
+
+  margin: 10px 10px 20px 10px;
+}
+
+.categories li:nth-child(5) {
+  margin-left: auto;
+}
