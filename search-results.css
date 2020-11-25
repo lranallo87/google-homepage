@@ -6,12 +6,13 @@
 }
 
 .main-container {
-  width: 95%;
   margin: auto;
 }
 
 header {
   margin-top: 20px;
+  margin-left: 20px;
+  margin-bottom: o;
   display: flex;
   align-items: center;
 }
@@ -26,7 +27,7 @@ header {
 
 .search-bar {
   display: flex;
-  width: 50%;
+  width: 650px;
   border: 1px solid lightgray;
   border-radius: 20px;
 }
@@ -39,20 +40,21 @@ header {
 }
 
 .categories {
-  width: 80%;
-  margin: auto;
   margin-top: 20px;
+  margin-left: 130px;
 }
 .categories ul {
   display: flex;
+  padding-bottom: 0;
 }
 
 .categories li {
   list-style: none;
-
   margin: 10px 10px 20px 10px;
 }
 
-.categories li:nth-child(5) {
-  margin-left: auto;
+main {
+  margin-left: 140px;
+  margin-top: 10px;
+  border-top: 1px solid lightslategray;
 }
